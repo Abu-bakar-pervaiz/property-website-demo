@@ -122,10 +122,10 @@
 				</nav>
 			</div>
 			<div class="col-lg-3">
-				<div class="btn buttons px-3 mt-3">
-					<i class="fa fa-plus p-1 mx-2 bg-white text-danger rounded-circle"></i>
-					Add Property
-				</div>
+					<a href="add-property.php" class="text-white btn buttons mt-3">
+						<i class="fa fa-plus p-1 mx-2 bg-white text-danger rounded-circle"></i>
+						Add Property
+					</a>
 			</div>
 		</div>
 	</div>
