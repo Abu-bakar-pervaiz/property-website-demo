@@ -4,7 +4,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Page Title</title>
+	<title>Abbottabad Propeties</title>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -213,18 +213,18 @@
 				Secure investments offering 20%+ annual return, 100% money-back guarantee! Call for details 051-2741768
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-12">
+		<div class="row my-5">
+			<div class="col-lg-6 m-auto">
 				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="images/football-logo-background_1195-244.jpg" class="carousel-image">
+							<img class="d-block w-100" height="400px" src="images/football-logo-background_1195-244.jpg">
 						</div>
 						<div class="carousel-item">
-							<img src="images/luxury-letter-e-logo-design_1017-8903.jpg" class="carousel-image">
+							<img class="d-block w-100" height="400px" src="images/luxury-letter-e-logo-design_1017-8903.jpg">
 						</div>
 						<div class="carousel-item">
-							<img src="images/retro-label-on-rustic-background_82147503374.jpg" class="carousel-image">
+							<img class="d-block w-100" height="400px" src="images/retro-label-on-rustic-background_82147503374.jpg">
 						</div>
 					</div>
 				</div>
