@@ -7,11 +7,11 @@ if (isset($_POST['submit'])) {
 	$purpose=$_POST['purpose'];
 	$No_of_rooms=$_POST['No_of_rooms'];
 	$image_dir="images/".$_FILES['image']['name'];
-	move_uploaded_file($_FILES['image']['tmp_name'],$image_dir);
-	$q=mysqli_query($con, "INSERT INTO files(property_title,purpose,	No_of_rooms,image_dir) VALUES('$property_title','$purpose','$No_of_rooms','$image_dir')");
+	$q=mysqli_query($con, "INSERT INTO file(property_title,purpose,	No_of_rooms,image_dir) VALUES('$property_title','$purpose','$No_of_rooms','$image_dir')");
 	if ($q) {
 		$msg="The Data Submitted Successfully";
 		$sts="success";
+		move_uploaded_file($_FILES['image']['tmp_name'],$image_dir);
 	}
 	else{
 		$msg="The Data Cannot be Submitted Please Try Again";
@@ -28,8 +28,8 @@ if (isset($_POST['submit'])) {
 			</p>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-8">
+	<div class="row mb-5">
+		<div class="col-lg-8 mb-5">
 			<?php if (!empty($sts) AND !empty($msg)):?>
 				<div class="alert alert-<?=$sts?>"><?=$msg?></div>
 			<?php endif ?>
