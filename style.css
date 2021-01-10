@@ -1,3 +1,4 @@
+/*https://github.com/Abu-bakar-pervaiz/property-website-demo*/
 *{
 	padding: 0px;
 	margin: 0px;
@@ -25,9 +26,12 @@
 	background-color: red;
 	color: white;
 	font-weight: bold;
+	border-radius: 5px;
 }
 input{
 	height: 50px !important;
+	padding: 10px;
+	border-radius: 5px;
 }
 input[placeholder]{
 	font-weight: bolder;
@@ -68,4 +72,15 @@ nav a{
 }
 .card span{
 	font-size: 17px;
+}
+.f-color{
+	color:#ED3237 !important;
+}
+#list li{
+	text-decoration: none;
+	color:white;
+	margin-bottom: 7px;
+}
+#last-button{
+	
 }
